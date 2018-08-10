@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/dianshang.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<script type="text/javascript" src="js/myfocus-2.0.1.min.js"></script>
+		<script type="text/javascript" src="js/mf-pattern/mF_classicHC.js"></script>
+		<link rel="stylesheet" href="js/mf-pattern/mF_classicHC.css" />
+		<script type="text/javascript">
+			myFocus.set({
+				id: 'picbox'
+			})
+		</script>
+		<script type="text/javascript">
+			myFocus.set({
+				id: 'picbox1'
+			})
+		</script>
+		<title></title>
+	</head>
+
+	<body style="background: #036564;">
+		<div class="panel panel-default">
+			<div class="col-lg-9 col-md-8 col-sm-8 col-xs-12 panel-heading">
+				Hi~欢迎来到JSPGOU商城&nbsp;&nbsp;&nbsp;
+				<a class="topA" href="dengluyemian.html" target="_blank">请登录</a>&nbsp;&nbsp;&nbsp;
+				<a class="topA" href="zhuceyemain.html" target="_blank">免费注册</a>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 panel-heading">
+				我的JSPGOU&nbsp;&nbsp;&nbsp;
+				<a class="topA" href="gouwuche.html" target="_blank">收藏夹</a>
+			</div>
+		</div>
+
+		<div id="header">
+			<div class="row">
+				<div class="col-xm-0 col-sm-0 col-md-0 col-lg-1"></div>
+				<div class="col-xm-12 col-sm-12 col-md-6 col-lg-2">
+					<div id="header-img">
+						<img src="images/logo.jpg" class="img-responsive" alt="Responsive image" />
+					</div>
+				</div>
+				<div class="col-xm-0 col-sm-0 col-md-0 col-lg-1"></div>
+				<div class="col-xm-12 col-sm-12 col-md-6 col-lg-7">
+					<div id="form" class="navbar-form navbar-left">
+						<form class="navbar-form navbar-left">
+							<div class="form-group">
+								<input type="text" class="form-control" value="请输入关键词" onfocus="if(this.value=='请输入关键词')this.value=''" onblur="if(this.value=='')this.value='请输入关键词'">
+								<button style="margin-top: 0px;" type="submit" class="btn btn-default">搜索</button>
+							</div>
+
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="main">
+			<div class="row">
+				<nav class="navbar navbar-default">
+					<div class="container-fluid">
+
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+							<a class="navbar-brand" href="#">首页</a>
+						</div>
+
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav">
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">全部商品分类 <span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li>
+											<a href="#">电子</a>
+										</li>
+										<li>
+											<a href="#">服饰</a>
+										</li>
+										<li>
+											<a href="#">五金</a>
+										</li>
+										<li role="separator" class="divider"></li>
+										<li>
+											<a href="#">库存紧张</a>
+										</li>
+										<li role="separator" class="divider"></li>
+										<li>
+											<a href="#">降价商品</a>
+										</li>
+									</ul>
+								</li>
+								<li class="active">
+									<a href="#">数码 <span class="sr-only">(current)</span></a>
+								</li>
+								<li>
+									<a href="#">服装</a>
+								</li>
+								<li>
+									<a href="#">鞋包配饰</a>
+								</li>
+								<li>
+									<a href="#">日用百货</a>
+								</li>
+								<li>
+									<a href="#">家居建材</a>
+								</li>
+								<li>
+									<a href="#">珠宝手表</a>
+								</li>
+								<li>
+									<a href="http://127.0.0.1:8020/2018-04-06/gouwuche.html" target="_blank">购物车</a>
+								</li>
+							</ul>
+
+							<ul class="nav navbar-nav navbar-right">
+								<li>
+									<a href="#">相关</a>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">分类 <span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li>
+											<a href="#">电子</a>
+										</li>
+										<li>
+											<a href="#">服饰</a>
+										</li>
+										<li>
+											<a href="#">五金</a>
+										</li>
+										<li role="separator" class="divider"></li>
+										<li>
+											<a href="#">相似</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+			<div class="row">
+				<div class="col-lg-1 col-md-0 col-sm-0"></div>
+				<div class="col-lg-2 col-md-12 col-sm-12">
+					<ul class="list-group">
+						<li class="list-group-item"><span class="glyphicon glyphicon-user">&nbsp;女装/内衣</span></li>
+						<li class="list-group-item"><span class="glyphicon glyphicon-home">&nbsp;男装/运动户外</span></li>
+						<li class="list-group-item"><span class="glyphicon glyphicon-education">&nbsp;女鞋/男鞋/箱包</span></li>
+						<li class="list-group-item"><span class="glyphicon glyphicon-phone">&nbsp;手机/数码/电脑</span></li>
+						<li class="list-group-item"><span class="glyphicon glyphicon-sunglasses">&nbsp;日用百货</span></li>
+						<li class="list-group-item"><span class="glyphicon glyphicon-list">&nbsp;家居建材</span></li>
+						<li class="list-group-item"><span class="glyphicon glyphicon-apple">&nbsp;</span>生鲜水果</li>
+						<li class="list-group-item"><span class="glyphicon glyphicon-bed">&nbsp;汽车/配件/用品</span></li>
+						<li class="list-group-item"><span class="glyphicon glyphicon-cutlery">&nbsp;零食/进口食品</span></li>
+						<li class="list-group-item"><span class="glyphicon glyphicon-plane">&nbsp;飞机/直升机</span></li>
+						<li class="list-group-item"><span class="glyphicon glyphicon-grain">&nbsp;种树</span></li>
+					</ul>
+
+				</div>
+				<div  class="col-lg-8 col-md-12 col-sm-12">
+
+					<div style="height: 400px;" id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+						</ol>
+
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner" role="listbox">
+							<div class="item active">
+								<img style="height: 400px;" src="images/one.jpg" />
+								<div class="carousel-caption">
+								</div>
+							</div>
+							<div class="item">
+								<img style="height: 400px;" src="images/two.jpg" />
+								<div class="carousel-caption">
+								</div>
+							</div>
+							<div class="item">
+								<img style="height: 400px;" src="images/three.jpg" />
+								<div class="carousel-caption">
+								</div>
+							</div>
+						</div>
+
+						<!-- Controls -->
+						<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+
+					<!--<div id="picbox" style="height: 437px;">
+				        <div class="loading"></div>
+				        <div class="pic">
+					        <ul>
+						        <li>
+							        <img src="images/one.jpg" />
+						        </li>
+						        <li>
+							        <img src="images/two.jpg" />
+						        </li>
+						        <li>
+							        <img src="images/three.jpg" />
+						        </li>
+					        </ul>
+				        </div>
+			        </div>-->
+				</div>
+				<div class="col-lg-1 col-md-0 col-sm-0"></div>
+			</div>
+		</div>
+
+		<div id="rowA" class="row">
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 s1">
+				<a href="#" class="thumbnail">
+					<img src="images/s1.png" class="img-responsive" alt="Responsive image">
+				</a>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 s2">
+				<a href="#" class="thumbnail">
+					<img src="images/s2.png" class="img-responsive" alt="Responsive image">
+				</a>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 s3">
+				<a href="#" class="thumbnail">
+					<img src="images/s3.png" class="img-responsive" alt="Responsive image">
+				</a>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 s4">
+				<a href="#" class="thumbnail">
+					<img src="images/s4.png" class="img-responsive" alt="Responsive image">
+				</a>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 ">
+				<div id="picbox1" style="height: 435px; width: 490px;">
+					<div class="loading"></div>
+					<div class="pic">
+						<ul>
+							<li>
+								<img src="images/w1.jpg" />
+							</li>
+							<li>
+								<img src="images/w2.jpg" />
+							</li>
+							<li>
+								<img src="images/w3.jpg" />
+							</li>
+							<li>
+								<img src="images/w4.jpg" />
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="footTwoLeft" class="col-lg-6">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 ">
+
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 ">
+						<a href="#" class="thumbnail">
+							<img src="images/l1.png" class="img-responsive" alt="Responsive image" />
+						</a>
+
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 ">
+
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 ">
+						<a href="#" class="thumbnail">
+							<img src="images/l2.png" class="img-responsive" alt="Responsive image" />
+						</a>
+
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 ">
+
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 ">
+						<a href="#" class="thumbnail">
+							<img src="images/l3.png" class="img-responsive" alt="Responsive image" />
+						</a>
+
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 ">
+
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 ">
+						<a href="#" class="thumbnail">
+							<img src="images/l5.png" class="img-responsive" alt="Responsive image" />
+						</a>
+
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 ">
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="shuma" class="panel panel-default">
+			<div class="panel-heading">
+				<div id="shumaA">
+					<img src="images/shuma.png" />&nbsp;&nbsp;
+				</div>
+				<div id="shumaB">潮电酷玩&nbsp;&nbsp;</div>
+				<div id="shumaC">ELECTRONICS</div>
+			</div>
+		</div>
+
+		<div id="footlast">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-1">
+
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+					<div class="thumbnail">
+						<img src="images/shuma1.jpg" class="img-responsive" alt="Responsive image">
+						<div class="caption">
+							<h3>Vr眼镜虚拟现实</h3>
+
+							<p>
+								<a href="#" class="btn btn-primary" role="button">¥88</a>
+								<a href="#" class="btn btn-default" role="button">购买</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+					<div class="thumbnail">
+						<img src="images/shuma2.jpg" class="img-responsive" alt="Responsive image">
+						<div class="caption">
+							<h3>蓝牙耳机入耳式</h3>
+
+							<p>
+								<a href="#" class="btn btn-primary" role="button">¥108</a>
+								<a href="#" class="btn btn-default" role="button">购买</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+					<div class="thumbnail">
+						<img src="images/shuma3.jpg" class="img-responsive" alt="Responsive image">
+						<div class="caption">
+							<h3>朗科64g内存卡</h3>
+
+							<p>
+								<a href="#" class="btn btn-primary" role="button">¥106</a>
+								<a href="#" class="btn btn-default" role="button">购买</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+					<div class="thumbnail">
+						<img src="images/shuma6.jpg" class="img-responsive" alt="Responsive image">
+						<div class="caption">
+							<h3>Q3电脑音响</h3>
+
+							<p>
+								<a href="#" class="btn btn-primary" role="button">¥129</a>
+								<a href="#" class="btn btn-default" role="button">购买</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+					<div class="thumbnail">
+						<img src="images/shuma5.jpg" class="img-responsive" alt="Responsive image">
+						<div class="caption">
+							<h3>无线充电平台</h3>
+
+							<p>
+								<a href="#" class="btn btn-primary" role="button">¥488</a>
+								<a href="#" class="btn btn-default" role="button">购买</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-1">
+
+				</div>
+
+			</div>
+		</div>
+
+		<div id="shenghuo" class="panel panel-default">
+			<div class="panel-heading">
+				<div id="shenghuoA">
+					<img src="images/rensheng.png" />&nbsp;&nbsp;
+				</div>
+				<div id="shenghuoB">美丽人生&nbsp;&nbsp;</div>
+				<div id="shenghuoC">FASHION & BEAUTY</div>
+			</div>
+		</div>
+
+		<div id="shenghuolast">
+			<div class="row">
+				<div id="shenghuolast">
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-1">
+
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+							<div class="thumbnail">
+								<img src="images/shenghuo1.jpg" class="img-responsive" alt="Responsive image">
+								<div class="caption">
+									<h3>达芙妮女鞋</h3>
+
+									<p>
+										<a href="#" class="btn btn-primary" role="button">¥838</a>
+										<a href="#" class="btn btn-default" role="button">购买</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+							<div class="thumbnail">
+								<img src="images/shenghuo2.jpg" class="img-responsive" alt="Responsive image">
+								<div class="caption">
+									<h3>男士蝉丝面膜</h3>
+
+									<p>
+										<a href="#" class="btn btn-primary" role="button">¥158</a>
+										<a href="#" class="btn btn-default" role="button">购买</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+							<div class="thumbnail">
+								<img src="images/shenghuo3.jpg" class="img-responsive" alt="Responsive image">
+								<div class="caption">
+									<h3>长袖衬衫</h3>
+
+									<p>
+										<a href="#" class="btn btn-primary" role="button">¥216</a>
+										<a href="#" class="btn btn-default" role="button">购买</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+							<div class="thumbnail">
+								<img src="images/shenghuo4.jpg" class="img-responsive" alt="Responsive image">
+								<div class="caption">
+									<h3>男士石英表</h3>
+
+									<p>
+										<a href="#" class="btn btn-primary" role="button">¥899</a>
+										<a href="#" class="btn btn-default" role="button">购买</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+							<div class="thumbnail">
+								<img src="images/shenghuo5.jpg" class="img-responsive" alt="Responsive image">
+								<div class="caption">
+									<h3>李宁羽毛球鞋</h3>
+
+									<p>
+										<a href="#" class="btn btn-primary" role="button">¥458</a>
+										<a href="#" class="btn btn-default" role="button">购买</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-1">
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="weibu">
+			<div id="weibulimian">
+				<div id="shenghuoD">
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+							<div class="thumbnail">
+								<img src="images/last1.png" class="img-circle" alt="Responsive image"> 100%正品
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+							<div class="thumbnail">
+								<img src="images/last2.png" class="img-circle" alt="Responsive image"> 双重质检
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+							<div class="thumbnail">
+								<img src="images/last3.png" class="img-circle" alt="Responsive image"> 全球化采购
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+							<div class="thumbnail">
+								<img src="images/last4.png" class="img-circle" alt="Responsive image"> 无理由退货
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+							<div class="thumbnail">
+								<img src="images/last5.png" class="img-circle" alt="Responsive image"> 贵就赔
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+							<div class="thumbnail">
+								<img src="images/last6.png" class="img-circle" alt="Responsive image"> 万千口碑
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div id="weibuxiamian">
+			<div id="weibuxiali">
+				<div id="weibuxialili">
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-1"></div>
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2" id="weibuxialiliA">
+						<ul>
+							<li>
+								<h5 class="er">新手入门</h4>
+		    							<ul >
+		    								<li><a class="search-hot-one" href="">积分说明</a></li>
+		    								<li><a class="search-hot-one" href="">购买流程</a></li>
+		    								<li><a class="search-hot-one" href="">账户注册</a></li>
+		    								<li><a class="search-hot-one" href="">大宗购物</a></li>
+		    							</ul>
+		    					</li>
+		    				</ul>
+		    			</div>
+		    			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2" id="weibuxialiliB">
+		    				<ul >
+		    					<li >
+		    						<h5 class="er">网站公告</h4>
+		    							<ul >
+		    								<li><a class="search-hot-one" href="">最新产品</a></li>
+		    							</ul>
+		    					</li>
+		    				</ul>
+		    			</div>
+		    			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2" id="weibuxialiliC">
+		    				<ul >
+		    					<li >
+		    						<h5 class="er">新闻中心</h4>
+		    							<ul >
+		    								<li><a class="search-hot-one" href="">jspgou v5.0即将发布</a></li>
+		    							</ul>
+		    					</li>
+		    				</ul>
+		    			</div>
+		    			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2" id="weibuxialiliD">
+		    				<ul >
+		    					<li >
+		    						<h5 class="er">热门促销</h4>
+		    							<ul >
+		    								<li><a class="search-hot-one" href="">热门促销</a></li>
+		    							</ul>
+		    					</li>
+		    				</ul>
+		    			</div>
+		    			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2" id="weibuxialiliE">
+		    				<ul >
+		    					<li >
+		    						<h5 class="er">配送范围及时间</h4>
+		    							<ul >
+		    								<li><a class="search-hot-one" href="">订单拆分</a></li>
+		    								<li><a class="search-hot-one" href="">海外派送</a></li>
+		    								<li><a class="search-hot-one" href="">国内配送</a></li>
+		    							</ul>
+		    					</li>
+		    				</ul>
+		    			</div>
+		    		</div>
+		    	</div>
+		    </div>
+        
+        
+        
+        <div id="zlast">
+        	<div class="col-lg-12 col-md-12 col-sm-12">
+        		<a class="search-hot-one" href="">关于JSPGOU | 最新资讯 | 帮助中心 | 隐私保护 | 网站导航 | 联系我们</a><br/>
+		    	Copyright © JSPGOU 2017，All Rights Reserved
+        	</div>
+		    	
+		</div>
+        
+		<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+	</body>
+
+</html>
